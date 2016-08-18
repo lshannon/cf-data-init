@@ -1,0 +1,8 @@
+---
+applications:
+- name: db-init
+  memory: 512M
+  instances: 1
+  path: target/db-init.jar
+  services:
+    - db-init-service

@@ -1,0 +1,8 @@
+CREATE PROCEDURE `joshua` ()
+LANGUAGE SQL
+DETERMINISTIC
+SQL SECURITY DEFINER
+COMMENT 'A procedure'
+BEGIN
+    SELECT 'Would you like to play a game?';
+END ^;
